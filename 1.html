@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <!-- Player Names Section -->
+    <div id="player-names">
+        <label for="player1">Player 1 Name:</label>
+        <input type="text" id="player1" placeholder="Enter Player 1 name">
+
+        <label for="player2">Player 2 Name:</label>
+        <input type="text" id="player2" placeholder="Enter Player 2 name">
+
+        <button id="start-game">Start Game</button>
+    </div>
+
+    <!-- Game Board Section -->
+    <div class="wrapper">
+        <div class="container">
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+        </div>
+        <button id="restart">Restart</button>
+    </div>
+
+    <!-- Victory/Draw Popup -->
+    <div class="popup hide">
+        <p id="message">Sample Message</p>
+        <button id="new-game">New Game</button>
+    </div>
+
+    <!-- Script -->
+    <script src="1.js"></script>
+</body>
+</html>
+
